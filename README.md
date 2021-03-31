@@ -1,24 +1,24 @@
 # kubernetes-hello-world
 This will give an idea to host a hello world application in minikube cluster
 
-# pre requisites
+# Pre requisites
 ```
 Minikube setup is already done.
 If minikube is not installed kindly follow,
 https://gist.github.com/gonzaloplaza/f62fdcfdb6aac3d15a0fe0d750715729
 ```
 
-# start minikube
+# Start minikube
 ```
 minikube start
 ```
 
-# start minikube dashboard
+# Open minikube dashboard
 ```
 minikube dashboard
 ```
 
-# clone the repository
+# Clone the repository
 ```
 https://github.com/asvinwin123/kubernetes-hello-world.git
 cd kubernetes-hello-world
@@ -38,7 +38,7 @@ kubectl get deployments
 kubectl get services
 ```
 
-# open the hello world application
+# Open the hello world application
 ```
 get the minikube ip using
 minikube ip
