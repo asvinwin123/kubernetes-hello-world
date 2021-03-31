@@ -42,6 +42,11 @@ kubectl get services
 ```
 get the minikube ip using
 minikube ip
-in browser open to see the hello wrold app, 
+in browser open to see the hello wrold app running in port 30001, 
 http://minikubeip:30001
+```
+
+# Remove the application from minikube
+```
+kubectl delete -f deployment.yaml
 ```
