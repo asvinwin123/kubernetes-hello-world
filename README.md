@@ -21,17 +21,17 @@ minikube dashboard
 # Clone the repository
 ```
 https://github.com/asvinwin123/kubernetes-hello-world.git
-cd kubernetes-hello-world
 ```
 
 # Run deployment
 ```
+cd kubernetes-hello-world
 kubectl create -f deployment.yaml
 ```
 
 go to minikube dashboard and check the deployment and pods tab. verify the pods are in running state.
 
-# Verify in cmd line
+# Verify the components in cmd line
 ```
 kubectl get pods
 kubectl get deployments
@@ -42,7 +42,7 @@ kubectl get services
 ```
 get the minikube ip using
 minikube ip
-in browser open to see the hello wrold app running in port 30001, 
+in browser open the following url to see the hello wrold app running in port 30001, 
 http://minikubeip:30001
 ```
 
